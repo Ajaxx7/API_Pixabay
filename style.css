@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    padding: 1% 2%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+header h1{
+    font-size: 1.4em;
+    margin-right: 3%;
+    color: wheat;
+}
+.containerPesquisa{
+    display: flex;
+    background-color: #f1f1f1;
+    width: 35%;
+    padding: 10px;
+    align-items: center;
+}
+.containerPesquisa input{
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+    width: 90%;
+    outline: none;
+}
+.tiposSelect{
+    background: #00000017;
+    padding: 7px;
+    border: none;
+    outline: none;
+}
+main{
+    flex-grow: 1;
+    background-color: gray;
+}
+.galeriaImagens{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 2%;
+    justify-content: center;
+}
+.card-imagem{
+    height: 300px;
+    width: 300px;
+    background-color: goldenrod;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid white;
+}
+.card-imagem img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+footer{
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    background-color: black;
+    font-size: 2rem;
+    color: white;
+}
